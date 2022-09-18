@@ -1,0 +1,48 @@
+/* Utility Css */
+@import "./reset.css";
+@import "./variables.css";
+/* Status-bar Component */
+@import "./status-bar.css";
+@import url("./component/screen-header.css");
+
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  color: #2e363e;
+}
+.nav__a {
+  position: relative;
+}
+.nav__notification {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: -17px;
+}
+
+.nav__menu_notifi {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: tomato;
+  position: absolute;
+  left: 27px;
+}
