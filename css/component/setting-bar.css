@@ -1,0 +1,46 @@
+.setting-bar {
+  margin-top: 40px;
+}
+.setting-bar .divider {
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 35px;
+}
+.setting-bar__subcontainer {
+  margin-bottom: 40px;
+}
+.setting-bar__subcontainer-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.setting-bar__column {
+  display: flex;
+}
+
+.subcontainer-column__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subcontainer-column__left i {
+  display: block;
+  width: 30px;
+  height: 20px;
+}
+
+.subcontainer-column__left span {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-right: 0px;
+  display: block;
+}
+
+.subcontainer-column__right {
+  font-size: 18px;
+  opacity: 0.5;
+}
